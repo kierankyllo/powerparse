@@ -1,5 +1,5 @@
 # powerparse
-This utility will execute an API call to a power company API to return a JSON object and parse it into a mariadb database
+This utility will execute an API call to a power company API to return a JSON object and parse it into a mariadb database table.
 
 ## VM Requirements:
 Ubuntu Linux 20.04.4 LTS
@@ -31,7 +31,7 @@ sudo mysql_secure_installation
 ### Copy repository files
 git clone https://github.com/kierankyllo/powerparse.git
 
-### Edit following line in the cweeds.sql file to add your custom password for the database
+### Edit following line in the powerparse.sql file to add your custom password for the database
 CREATE USER 'agent'@'localhost' IDENTIFIED BY 'YOUR_PASSWORD_HERE';
 
 ### Login to the database and run the setup query file
@@ -52,7 +52,7 @@ exit;
 
 ## Operation
 
-Run the script as a standalone or add it as a systemd service unit to run on startup
+Run the script as a standalone or add it as a systemd service unit to run on startup.
 
 ## Files
 ppscript.py - parses API call into alert table
