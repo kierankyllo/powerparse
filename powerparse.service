@@ -1,0 +1,12 @@
+[Unit]
+Wants=network.service
+After=mariadb.service
+
+[Service]
+Type=simple
+WorkingDirectory=/usr/local/bin
+ExecStart=/usr/local/bin/ppscript.sh
+User=root
+
+[Install]
+WantedBy=multi-user.target
