@@ -52,11 +52,7 @@ exit;
 
 ## Operation
 
-### Download and extract the WY3 files
-./getWeeds.sh
-
-### Execute the parsing script
-python3 parseWeeds.py
+Run the script as a standalone or add it as a systemd service unit to run on startup
 
 ## Files
 ppscript.py - parses API call into alert table
