@@ -57,7 +57,7 @@ Run the script as a standalone or add it as a systemd service unit to run on sta
 ## Files
 ppscript.py - parses API call into alert table
 
-powerparse.sql - creates database user and empty tables
+powerparse.sql - creates database user and empty table
 
 config.json - configuration file for database connection
 
