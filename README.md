@@ -1,5 +1,5 @@
 # powerparse
-This utility will execute an API call to a power company to return a JSON object and parse it into a mariadb database table.
+This utility will execute an API call to a power company to return a JSON object and parse it into a mariadb database table.  Systemd unit files are included to run as a service at startup.
 
 ## VM Requirements:
 Ubuntu Linux 20.04.4 LTS
